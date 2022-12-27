@@ -6,4 +6,9 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    sikl=0
+    while len(list1)>sikl:
+        if list1[sikl]==1:
+            list1[sikl]=True
+        sikl+=1
+    return list1
